@@ -83,3 +83,20 @@ The program fires a GET query to the URL : http://yuml.me/diagram/plain/class/<G
 and gets the diagram. Thus, an internet connection is needed for the program to work.
 
 For generating the sequence diagram, plantUML is integrated in the code: http://plantuml.com/
+
+## Compile Instructions
+
+```shell
+git clone https://github.com/ABHIRAMSHIBU/uml-parser.git`
+
+`cd uml-parser/uml-parser`
+
+`mvn compile`
+
+`mvn package`
+
+`cd target`
+
+There you will find jar file, execute it with java -jar
+```
+
